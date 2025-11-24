@@ -18,7 +18,10 @@ class _ProdukDetailState extends State<ProdukDetail> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Detail Produk')),
+      appBar: AppBar(
+        title: const Text('Detail Produk'),
+        backgroundColor: Colors.grey,
+        ),
       body: Center(
         child: Column(
           children: [

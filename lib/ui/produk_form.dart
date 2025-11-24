@@ -46,7 +46,10 @@ class _ProdukFormState extends State<ProdukForm> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text(judul)),
+      appBar: AppBar(
+        title: Text(judul),
+        backgroundColor: Colors.grey,
+        ),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(8.0),
